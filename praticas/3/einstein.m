@@ -25,4 +25,7 @@ for i = 1:img_M
 
 imwrite(img_output, 'imagem_saida.jpg');
 
+plot(0:L-1, T);
+axis([0 L-1 0 L-1]);
+
 plot(xf, countsf);
